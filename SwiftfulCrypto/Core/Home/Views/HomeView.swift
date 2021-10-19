@@ -21,7 +21,9 @@ struct HomeView: View {
             // content layer
             VStack {
                 homeHeader
+                
                 columnTitles
+                
                 if !showPortfolio {
                     allCoinsList
                         .transition(.move(edge: .leading))
