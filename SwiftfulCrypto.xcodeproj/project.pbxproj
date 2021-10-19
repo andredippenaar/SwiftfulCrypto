@@ -19,6 +19,7 @@
 		80001E4C271D89850044F481 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001E4B271D89850044F481 /* CoinRowView.swift */; };
 		80001E4E271D89E00044F481 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001E4D271D89E00044F481 /* PreviewProvider.swift */; };
 		80001E50271D8D120044F481 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001E4F271D8D120044F481 /* Double.swift */; };
+		8038768C271EE60000A3CEDD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038768B271EE60000A3CEDD /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		80001E4B271D89850044F481 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		80001E4D271D89E00044F481 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		80001E4F271D8D120044F481 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		8038768B271EE60000A3CEDD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		80001E3F271D51960044F481 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8038768B271EE60000A3CEDD /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80001E4C271D89850044F481 /* CoinRowView.swift in Sources */,
+				8038768C271EE60000A3CEDD /* HomeViewModel.swift in Sources */,
 				80001E2E271D49EB0044F481 /* ContentView.swift in Sources */,
 				80001E41271D51BA0044F481 /* HomeView.swift in Sources */,
 				80001E2C271D49EB0044F481 /* SwiftfulCryptoApp.swift in Sources */,
